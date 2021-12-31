@@ -7,9 +7,10 @@
     <style>
         .start {
             font-size: 260%;
-            border: medium dashed rgb(0, 0, 0);
+            border: medium dashed rgb(255, 255, 255);
             padding: 1%;
             margin: 2%;
+            color: white;
         }   
     </style>
 </head>
@@ -17,14 +18,14 @@
 <body>
     
     <div class="center">
-        <h1>До нового года осталось</h1>
+        <h1 style="color: white;">До нового года осталось</h1>
         <hr/>
         <p1 id="timer"></p1>
     </div>
     <p class="start">Я создал этот сайт для быстрого доступа к разным программам</p>
-    <div style="margin: 1%;"><b style="font-size: 200%;"> Первая функция - калькулятор.</b></div>
+    <div style="margin: 1%;"><b style="font-size: 200%; color: white;"> Первая функция - калькулятор.</b></div>
     <div><img src="калькулятор4.0.png" alt="калькуляторИконка" onclick="calkulator()" class="calkulator"></div>
-    <div style="margin: 1%;"><b style="font-size: 200%;">Вторая функция - переводчик валют.</b></div>
+    <div style="margin: 1%;"><b style="font-size: 200%; color: white;">Вторая функция - переводчик валют.</b></div>
     
     <form id="data">
         <button type="submit" form="data" class="butt" onclick="rubDollar()">ruble-dollar</button>
@@ -32,7 +33,7 @@
         <button type="submit" form="data" class="butt" onclick="rubEuro()">ruble-euro</button>
     </form>
 
-    <div style="margin: 1%;"><b style="font-size: 200%;">Третья функция - создай свою валюту.</b></div>
+    <div style="margin: 1%;"><b style="font-size: 200%; color: white;">Третья функция - создай свою валюту.</b></div>
     <button type="submit" class="butt" onclick="yourСurrency()">your currency</button>
     
     <script>
