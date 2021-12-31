@@ -41,6 +41,7 @@
             var seconds = (Math.floor(distance % (1000 * 60)) / 1000).toFixed(0);
             document.getElementById('timer') .innerHTML = days + 'дней ' + hours + 'ч ' + minutes + 'м ' + seconds + 'с ';
         if (distance<0) {
+            newYear()
             clearInterval(countDownFunction);
             document.getElementById('timer').innerHTML = 'Время истекло'
         }
@@ -57,6 +58,9 @@
             const rub = prompt('Введи кол-во рублей ')
             const dollar = 74.93
             alert(rub/dollar)
+        }
+        function newYear() {
+            alert('С новым годом!!!') 
         }
         function rubEuro() {
             alert('Ты выбрал переводчик из рубля в евро.')
