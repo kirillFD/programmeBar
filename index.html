@@ -4,15 +4,6 @@
 <head>
     <title>programmeBar</title>
     <link rel="stylesheet" href="gradient.css">
-    <style>
-        .start {
-            font-size: 260%;
-            border: medium dashed rgb(255, 255, 255);
-            padding: 1%;
-            margin: 2%;
-            color: white;
-        }   
-    </style>
 </head>
 
 <body>
@@ -33,13 +24,14 @@
         <button type="submit" form="data" class="butt" onclick="rubEuro()">ruble-euro</button>
     </form>
 
+    
     <div style="margin: 1%;"><b style="font-size: 200%; color: white;">Третья функция - создай свою валюту.</b></div>
     <button type="submit" class="butt" onclick="yourСurrency()">your currency</button>
     <script src="http://mihailmaximov.ru/projects/snow/snowfall2020.js"></script>
     <script>
-        var countDownDate = new Date('Jan 1, 2022 00:00:00') .getTime();
-
-        
+       
+       
+       var countDownDate = new Date('Jan 1, 2022 00:00:00') .getTime();       
         var countDownFunction = setInterval(function() {
             var now = new Date().getTime();
             var distance = countDownDate - now;
