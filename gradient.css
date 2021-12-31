@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background: linear-gradient(45deg, #cc2b5e, #753a88);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.butt {
+    border: 3px solid #218294;
+    font-size: 30px;
+    color: #218294;
+    width: 250px;
+    height: 80px;
+    margin: 10px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+.butt:hover{
+    background-color: #565a5f;
+    color: #ffffff;
+    border: none;
+    width: 260px;
+    height: 90px;
+}
+.center {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+h1, p1 {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+h1 {
+    font-size: 50px;
+}
+p1 {
+    font-size: 30px;
+}
+.calkulator {
+    margin: 1%;
+}
+.calkulator:hover {
+    width: 160px;
+    height: 160px;
+    background-color: #a9a9a9 0,5;
+}
